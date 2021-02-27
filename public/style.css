@@ -1,0 +1,14 @@
+.container {
+    width: 960px;
+}
+
+h1{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    font-weight: 500 ;
+    color: blue;
+}
+
+body {
+    background-color:lightblue;
+}
