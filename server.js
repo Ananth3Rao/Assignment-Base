@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 
 app.route('/api')
-  .get(async (req, res) => {
+  .get(async( req, res) => {
     console.log('GET request detected');
     const data = await fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json');
     const json = await data.json();
