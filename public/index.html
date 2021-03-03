@@ -3,18 +3,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Adusei, Ananth Rao, Enrique Urzua</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="style.css"></link>
+=======
+    <link rel="stylesheet" href="style.css"/>
+>>>>>>> 8eb86307f512c1d44bd2787ac77b55dbdb3075ed
 </head>
 <body>
     <h1>Assignment 1</h1>
     <div class="container">
     <form class="search-form">
-        <input type = "text" class="search" placeholder="Zip Code">
+        <input type = "text" class="search" placeholder="Search Zip Code">
         <ul class="suggestions">
             <li>Filter for Zip Code</li>
         </ul>
     </form>
+<<<<<<< HEAD
 
  
+=======
+    </div>
+
+
+<script>
+
+async function getData() {
+    const response = await fetch('/api');
+    const data = await response.json();
+    return data
+}
+const resturants = []; 
+getData().then(data => resturants.push(...data));
+
+function findMatches(matchWord, resturants) {
+    return resturants.filter(resturant => {
+        const regex = new RegExp(matchWord, 'gi');
+        return resturant.zip.match(regex);
+    });
+}
+
+function displayMatches() {
+    const matchArray = findMatches(this.value, resturants)
+    const html = matchArray.map(resturant => {
+        return `
+        <li>
+            <span class="name"> ${resturant.name} </span>
+            <span class ="category"> ${resturant.category} </span> 
+            <span class ="address"> ${resturant.address_line_1} </span>
+        </li>
+        `;
+    }).join('');
+    suggestions.innerHTML = html;
+}
+
+const searchInput = document.querySelector('.search')
+const suggestions = document.querySelector('.suggestions')
+
+searchInput.addEventListener('change', displayMatches)
+searchInput.addEventListener('keyup', displayMatches)
+
+</script>
+
+>>>>>>> 8eb86307f512c1d44bd2787ac77b55dbdb3075ed
 </body>
 </html>
