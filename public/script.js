@@ -37,3 +37,4 @@ const suggestions = document.querySelector('.suggestions')
 
 searchInput.addEventListener('change', displayMatches)
 searchInput.addEventListener('keyup', displayMatches)
+console.log(resturant);
