@@ -20,10 +20,12 @@ function displayMatches() {
         return `
         <div class="block">
         <ul>
-        <li>
+        <li class="results">
             <span class="name"> ${resturant.name} </span><br />
-            <span class ="category"> ${resturant.category} </span> <br />
-            <span class ="address"> ${resturant.address_line_1} </span> <br />
+            <span class="category"> ${resturant.category} </span> <br />
+            <span class="address"> ${resturant.address_line_1} </span> <br />
+            <span class="city"> ${resturant.city}</span> <br />
+            <span class="zip">${resturant.zip}</span> 
         </li>
         </ul>
         </div>
