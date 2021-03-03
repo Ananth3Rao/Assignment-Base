@@ -1,14 +1,7 @@
-.container {
-    width: 960px;
-}
-
 h1{
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    font-weight: 500 ;
-    color: blue;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background-color:lightblue;
-}
+li:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
