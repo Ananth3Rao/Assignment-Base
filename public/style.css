@@ -1,19 +1,16 @@
-.block:not(:last-child) {
+.block {
     margin-bottom: 1.5rem;
-<<<<<<< HEAD
-    background: rgb(244,243,200);
-    background: linear-gradient(90deg, rgba(244,243,200,1) 0%, rgba(64,201,236,1) 35%, rgba(36,40,205,1) 100%);
-=======
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,221,0.9402135854341737) 100%);
->>>>>>> 749c6bfdf9d324700ec8bc57faa9e274419fded9
     width: 50%;
   }
+
 
 h1{
     font-family: 'Open Sans', sans-serif;
 }
 
 .search{
-    width: 50%
+    width: 50%;
+    margin-bottom: 1.5rem;
 }
