@@ -1,18 +1,24 @@
+<<<<<<< HEAD
 body {
     background-color: yellowgreen;
   }
 
 .block:not(:last-child) {
+=======
+.block {
+>>>>>>> 3d7ec47fd682b3c4ee9799e2c95919df9c535a54
     margin-bottom: 1.5rem;
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,221,0.9402135854341737) 100%);
     width: 50%;
   }
 
+
 h1{
     font-family: 'Open Sans', sans-serif;
 }
 
 .search{
-    width: 50%
+    width: 50%;
+    margin-bottom: 1.5rem;
 }
