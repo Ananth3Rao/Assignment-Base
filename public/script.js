@@ -21,9 +21,9 @@ function displayMatches() {
         <div class="block">
         <ul>
         <li>
-            <span class="name"> ${resturant.name} </span>
-            <span class ="category"> ${resturant.category} </span> 
-            <span class ="address"> ${resturant.address_line_1} </span>
+            <span class="name"> ${resturant.name} </span><br />
+            <span class ="category"> ${resturant.category} </span> <br />
+            <span class ="address"> ${resturant.address_line_1} </span> <br />
         </li>
         </ul>
         </div>
