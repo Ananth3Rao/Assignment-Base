@@ -1,6 +1,7 @@
 .block:not(:last-child) {
     margin-bottom: 1.5rem;
-    background-color: blueviolet;
+    background: rgb(244,243,200);
+    background: linear-gradient(90deg, rgba(244,243,200,1) 0%, rgba(64,201,236,1) 35%, rgba(36,40,205,1) 100%);
     width: 50%;
   }
 
