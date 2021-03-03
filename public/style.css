@@ -1,14 +1,6 @@
-.container {
-    width: 960px;
-}
+.block:not(:last-child) {
+    margin-bottom: 1.5rem;
+    background-color: blueviolet;
+    width: 50%;
+  }
 
-h1{
-    text-decoration: underline;
-    text-decoration-color: yellow;
-    font-weight: 500 ;
-    color: blue;
-}
-
-body {
-    background-color:lightblue;
-}
