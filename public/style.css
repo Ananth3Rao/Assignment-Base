@@ -23,8 +23,13 @@ h1{
 }
 
 span{
-  font-family: 'Open Sans', sans-serif;
+ /* font-family: 'Open Sans', sans-serif;*/
   margin-left: 10px;
+  font-style: italic !important;
+}
+address.alpha{
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic !important;
 }
 
 .name{
@@ -33,11 +38,11 @@ span{
   font-size: 20px;
 }
 
-span.city, span.zip, span.address{
+/*span.city, span.zip, span.address{
   font-style: italic !important;
   font-weight: inherit;
 }
-
+*/
 li.results{
   padding-bottom: 10px;
   padding-top: 10px;
