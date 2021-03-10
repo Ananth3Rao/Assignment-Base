@@ -22,10 +22,12 @@ function displayMatches(event) {
         <ul>
         <li class="results">
             <span class="name"> ${resturant.name} </span><br />
-            <span class="category"> ${resturant.category} </span> <br />
+            <span class="category"> ${resturant.category} </span> <br /> 
+        <address class="alpha">
             <span class="address"> ${resturant.address_line_1} </span> <br />
             <span class="city"> ${resturant.city}</span> <br />
             <span class="zip">${resturant.zip}</span> 
+        </address>
         </li>
         </ul>
         </div>
