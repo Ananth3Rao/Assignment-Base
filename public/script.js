@@ -14,8 +14,8 @@ function findMatches(matchWord, resturants) {
     });
 }
 
-function displayMatches() {
-    const matchArray = findMatches(this.value, resturants)
+function displayMatches(event) {
+    const matchArray = findMatches(event.target.value, resturants)
     const html = matchArray.map(resturant => {
         return `
         <div class="block">
